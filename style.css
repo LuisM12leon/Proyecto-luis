@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #3d0157, #12001c);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #00ff87;
+    text-shadow: 0px 0px 10px black;
+}
+
+.buscador{
+    margin-top: 30px;
+}
+
+input{
+    width: 260px;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+button{
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #00ff87;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color: white;
+    transform: scale(1.05);
+}
+
+#resultado{
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+    text-align: left;
+}
+
+#resultado h2{
+    text-align: center;
+    font-size: 35px;
+    color: #00ff87;
+}
+
+#resultado h3{
+    color: #00ff87;
+    margin-top: 20px;
+}
+
+#resultado p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+hr{
+    border: 1px solid rgba(255,255,255,0.2);
+}

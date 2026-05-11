@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Premier League </title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1>Premier League Stats</h1>
+
+    <div class="buscador">
+
+        <input 
+            type="text" 
+            id="jugador"
+            placeholder="Buscar jugador"
+        >
+
+        <button onclick="buscarJugador()">
+            Buscar
+        </button>
+
+    </div>
+
+    <div id="resultado">
+
+        <h2 id="nombreJugador"></h2>
+
+        <hr>
+
+        <h3>Equipo actual</h3>
+        <p id="equipo"></p>
+
+        <h3>Posición</h3>
+        <p id="posicion"></p>
+
+        <h3>Número</h3>
+        <p id="numero"></p>
+
+        <h3>Nacionalidad</h3>
+        <p id="nacionalidad"></p>
+
+        <h3>Goles marcados</h3>
+        <p id="goles"></p>
+
+        <h3>Asistencias</h3>
+        <p id="asistencias"></p>
+
+        <h3>Minutos jugados</h3>
+        <p id="minutos"></p>
+
+        <h3>Partidos jugados</h3>
+        <p id="partidos"></p>
+
+        <h3>Tarjetas amarillas</h3>
+        <p id="amarillas"></p>
+
+        <h3>Tarjetas rojas</h3>
+        <p id="rojas"></p>
+
+        <hr>
+
+        <h3>Historia</h3>
+
+        <p id="historia"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
